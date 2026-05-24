@@ -76,9 +76,9 @@ function FallbackGlobe() {
 
 export default function Globe3D() {
   return (
-   <div style={{ width: "100%", height: "clamp(260px, 40vw, 420px)", position: "relative" }}>
+   <div style={{ width: "100%", height: "clamp(200px, 30vw, 420px)", position: "relative" }}>
   <Canvas
-    camera={{ position: [0, 0, 5.5], fov: 45 }}
+    camera={{ position: [0, 0, 7], fov: 45 }}
         style={{ background: "transparent" }}
         gl={{ alpha: true, antialias: true }}
       >
