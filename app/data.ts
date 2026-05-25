@@ -15,7 +15,7 @@ export interface OrgData {
   funFact: string;
   achievements: string[];
   xp: number;
-  difficulty: "Mudah" | "Sedang" | "Sulit";
+  difficulty: "Sedang";
   diffColor: string;
 }
 
@@ -46,7 +46,7 @@ export const organizations: OrgData[] = [
     fullName: "Association of Southeast Asian Nations",
     emoji: "🌺",
     founded: "1967",
-    members: "10 negara",
+    members: "11 negara",
     hq: "Jakarta, Indonesia 🇮🇩",
     color: "#8BE9B3",
     gradient: "linear-gradient(135deg, #8BE9B3 0%, #5DD4A0 50%, #6EC6FF 100%)",
@@ -57,8 +57,8 @@ export const organizations: OrgData[] = [
     funFact: "Populasi ASEAN mencapai 680 juta orang — lebih besar dari seluruh Eropa! 🤯",
     achievements: ["Zona Perdagangan Bebas ASEAN", "Komunitas ASEAN 2025", "Kawasan Bebas Nuklir", "Kerja Sama Bencana Alam"],
     xp: 400,
-    difficulty: "Mudah",
-    diffColor: "#8BE9B3",
+    difficulty: "Sedang",
+    diffColor: "#FFB86B",
   },
   {
     id: "g20",
@@ -77,8 +77,8 @@ export const organizations: OrgData[] = [
     funFact: "G20 mewakili 85% dari total ekonomi dunia! Indonesia pernah jadi tuan rumah di Bali 2022 🏝️",
     achievements: ["Respons Krisis 2008", "Reformasi Pajak Global", "Pendanaan Iklim", "Presidensi Indonesia 2022"],
     xp: 450,
-    difficulty: "Sulit",
-    diffColor: "#FF9ECF",
+    difficulty: "Sedang",
+    diffColor: "#FFB86B",
   },
   {
     id: "eu",
@@ -97,8 +97,8 @@ export const organizations: OrgData[] = [
     funFact: "Kamu bisa bepergian ke 26 negara EU hanya dengan 1 paspor! Bayangkan petualangannya! ✈️",
     achievements: ["Mata Uang Euro", "Pasar Tunggal Eropa", "Nobel Perdamaian 2012", "Zona Schengen"],
     xp: 480,
-    difficulty: "Sulit",
-    diffColor: "#FF9ECF",
+    difficulty: "Sedang",
+    diffColor: "#FFB86B",
   },
 ];
 

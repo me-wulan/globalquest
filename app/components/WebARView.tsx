@@ -242,7 +242,7 @@ export default function WebARView({ org }: { org: OrgData }) {
       setPhase("active");
       let progress = 0;
       const interval = setInterval(() => {
-        progress += 1.5;
+        progress += 0.6;
         setScanProgress(progress);
         if (progress >= 100) {
           clearInterval(interval);
