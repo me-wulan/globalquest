@@ -51,7 +51,7 @@ export const organizations: OrgData[] = [
     fullName: "Association of Southeast Asian Nations",
     emoji: "🌺",
     founded: "1967",
-    members: "10 negara",
+    members: "11 negara",
     hq: "Jakarta, Indonesia 🇮🇩",
     color: "#8BE9B3",
     gradient: "linear-gradient(135deg, #8BE9B3 0%, #5DD4A0 50%, #6EC6FF 100%)",
